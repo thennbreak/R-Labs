@@ -19,4 +19,5 @@ The PDF file R-Plot-CIboot is the histogram of the data after generating the res
 From the output file we can see there is two tested confidence intervals, one at 95% cofidence and one at 99% cofidence.
 
 99% cofidence:  Considering the data collected [49.99940, 49.99954] is a set of plausible values for theta with 99% cofidence.
+
 95% cofidence:  Considering the data collected [49.99941, 49.99952] is a set of plausible values for theta with 95% cofidence.
