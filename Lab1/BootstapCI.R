@@ -22,4 +22,4 @@ quantile(mass, probs = c(alpha/2, 1 - alpha/2))#two-sided
 conf2 = .95
 alpha2 = 1 - conf2
 quantile (mass, probs = c(alpha2/2, 1 - alpha2/2))#two-sided
-sd(mass)
+sd(mass)#bootstrap standard error estimate for the estimated mean
