@@ -1,4 +1,4 @@
-In lab 1 I will be doing a non-parametric bootstrap on a set of data and then finding the one-sided upper and lower bound, as well as, the twosided confidence interval of the generated data.
+In lab 1 I will be doing a non-parametric bootstrap on a set of data and then finding the bootstrap two-sided confidence interval of the generated data to find the mean or theta.  
 
 
 The set of data was given and is a sample of 10 methamphetamine mass measurements done by a forensics lab:
