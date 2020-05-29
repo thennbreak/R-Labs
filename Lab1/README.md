@@ -21,3 +21,5 @@ From the output file we can see there is two tested confidence intervals, one at
 99% cofidence:  Considering the data collected [49.99940, 49.99954] is a set of plausible values for theta with 99% cofidence.
 
 95% cofidence:  Considering the data collected [49.99941, 49.99952] is a set of plausible values for theta with 95% cofidence.
+
+Finally, the bootstrap standard error estimate for the estimated mean is 2.817984e^-05.
