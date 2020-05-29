@@ -14,10 +14,5 @@
     2.5%    97.5% 
 49.99941 49.99952 
 
-> quantile(y, probs = c(alpha))#one-sided lowerbound
-     1% 
-49.9994 
-
-> quantile(y, probs = c(1-alpha))#one-sided upperbound
-     99% 
-49.99953 
+> sd(y)
+[1] 2.906152e-05
