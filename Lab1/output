@@ -1,10 +1,8 @@
-> conf = .99
-
 > alpha = 1 - conf
 
 > quantile(mass, probs = c(alpha/2, 1 - alpha/2))#two-sided
     0.5%    99.5% 
-49.99939 49.99954 
+49.99940 49.99954 
 
 > conf2 = .95
 
@@ -12,7 +10,7 @@
 
 > quantile (mass, probs = c(alpha2/2, 1 - alpha2/2))#two-sided
     2.5%    97.5% 
-49.99942 49.99952 
+49.99941 49.99952 
 
 > sd(mass)
-[1] 2.887069e-05
+[1] 2.817984e-05
