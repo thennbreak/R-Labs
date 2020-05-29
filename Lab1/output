@@ -1,0 +1,23 @@
+> conf = .99
+
+> alpha = 1 - conf
+
+> quantile(y, probs = c(alpha/2, 1 - alpha/2))#two-sided
+    0.5%    99.5% 
+49.99940 49.99954 
+
+> conf2 = .95
+
+> alpha2 = 1 - conf2
+
+> quantile (y, probs = c(alpha2/2, 1 - alpha2/2))#two-sided
+    2.5%    97.5% 
+49.99941 49.99952 
+
+> quantile(y, probs = c(alpha))#one-sided lowerbound
+     1% 
+49.9994 
+
+> quantile(y, probs = c(1-alpha))#one-sided upperbound
+     99% 
+49.99953 
