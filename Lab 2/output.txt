@@ -1,0 +1,10 @@
+> c(m, m.treat)
+[1]  8.612295  3.183333  5.860000  8.140769 11.784167 14.132500
+
+> anova(bfit)
+Analysis of Variance Table
+
+Response: y
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+lbl.treat  4 933.88 233.469  62.543 < 2.2e-16 ***
+Residuals 56 209.04   3.733   
