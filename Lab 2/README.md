@@ -7,6 +7,7 @@ Definitions:
   - Mean Squared Deviation within Treatments(MSW)
   - F-statistic: the ratio of MSB to MSW
 <a/>
+
 The data being used will be of gun shot residue(GSR) area.  I will be using an ANOVA to test for evidence of a sighnificant difference between at least one of the treatment means.
     
   
