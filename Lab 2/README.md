@@ -31,6 +31,6 @@ The analysis of variance outputs 5 different numbers which include, degrees of f
       - I would reject the null hypothesis and conclude that not all of population means are equal.  
   - If the p-value is strictly greater than alpha the difference between the means are not statistically significant.
       - I would not have enough evidence to reject the null hypothesis that the population means are all equal.
-In the case of this example the p-value is 2.2e^-16 which is less than .05 which we get from using a 95% confidence interval for the mean of the group.  **I can reject the null hypothesis and conclude that some of the population means are different**
+In the case of this example the p-value is 2.2e^-16 which is less than .05 which we get from using a 95% confidence interval for the mean of the group.  **I can reject the null hypothesis and conclude that some of the population means are different.**
   
   
