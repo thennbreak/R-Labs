@@ -9,6 +9,14 @@ Definitions:
 <a/>
 
 The data being used will be of gun shot residue(GSR) area.  I will be using an ANOVA to test for evidence of a sighnificant difference between at least one of the treatment means.
+
+After running the code outputted is the analysis of variance table where data can be extracted and conclusions can be made:
+**Analysis of Variance Table**
+
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+lbl.treat  4 933.88 233.469  62.543 < 2.2e-16 ***
+
+Residuals 56 209.04   3.733
     
   
   
