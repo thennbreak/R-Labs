@@ -5,7 +5,7 @@ Defintions:
   - Cumulative Distribution Function (CDF): A function that gives the probability that a random variable is less than or equal to a specified value
   - Binomial PMF: Number of "successes" in n "trails"
   
-Helpful Function in R for Distribution:
+Helpful Function in R for Binomial Distribution:
   - dbinom: "d-function" the density (mass) of the distribution
   - pbinom: "p-function" the CDFs of the distribution
   - qbinom: "q-function" the quantiles of the distribution (x-values) for a given cumulative probability (p-value)
