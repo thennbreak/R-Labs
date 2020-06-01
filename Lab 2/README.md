@@ -15,7 +15,7 @@ Definitions:
   - **ANOVA assumes variance is approximately equal**
 <a/>
 
-The data being used will be of gun shot residue(GSR) area.  I will be using an ANOVA to test for evidence of a sighnificant difference between at least one of the treatment means.
+The data being used will be of gun shot residue(GSR) area.  I will be using an ANOVA to test for evidence of a significant difference between at least one of the treatment means.
   - "Range" is the factor with levels which are the distance from target (10, 20, 30, etc.)
 
 After running the code outputted is the analysis of variance table where data can be extracted and conclusions can be made:
