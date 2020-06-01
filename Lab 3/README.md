@@ -23,3 +23,13 @@ Using data collected by Besson, Taroni et al. suggest that about 36% of bills in
   5. What is the probability that 13 bills or less contain traces of cocaine?
   6. What is the probability that more than 15 bills contain traces of cocaine?
   7. What is the probability that 15 or more bills contain traces of cocaine?
+  
+**RESULTS:**
+  1. For this question please refer to the R-Plot-PMFbinom pdf to view the answer
+  2. Standard Deviation = **3.394113 (not rounded)**
+  3. Mean = **18**, which is accurately reflected in question 1's graph
+  4. Probaility of finding more than 10 but less than or equal to 20 bills contaminated with cocaine = **76.00% (rounded)**
+  5. Probability that 13 bills or less contain traces of cocaine = **9.03% (rounded)**
+  6. Probability that more than 15 bills contain traces of cocaine = **76.72% (rounded)**
+  7. Probability that 15 or more bills contain traces of cocaine = **84.91% (rounded)**
+  
