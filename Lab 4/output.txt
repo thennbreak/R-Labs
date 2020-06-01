@@ -1,0 +1,38 @@
+> #*****Question 1*****
+> ans1 = 1 - ppois(q = 8, lambda = 4)#where q is the vecotr of quantiles and lambda is the mean
+> ans1
+[1] 0.02136343
+
+> #*****Question 2*****
+> poissonMean = 24*4 #simple mean for a 24 hour period
+> poissonMean
+[1] 96
+
+> #*****Question 3*****
+> ppois(q = 100, lambda = poissonMean) - ppois(q = 50, lambda = poissonMean)
+[1] 0.6817717
+
+> #*****Question 4*****
+> ppois(q = 20, lambda = 32)#lambda is 32 in the case because 8 hours of a 24 hour day is 1/3 and 1/3 of 96 is 32
+[1] 0.01594048
+
+> #*****Question 5*****
+> qpois(p = .088, lambda = 4)#where p is the vector of probabilities
+[1] 1
+
+> #*****Question 6*****
+> messages = 1:10 #number of messages received
+> probability = dpois(x = messages, lambda = 4)#probabiliy for 1 to 10 messages
+> cumulativeProb = cumsum(probability)#Cumulative probability from 1 to 10 messages
+> cbind(messages, probability, cumulativeProb)#creates a visual table
+      messages probability cumulativeProb
+ [1,]        1 0.073262556     0.07326256
+ [2,]        2 0.146525111     0.21978767
+ [3,]        3 0.195366815     0.41515448
+ [4,]        4 0.195366815     0.61052130
+ [5,]        5 0.156293452     0.76681475
+ [6,]        6 0.104195635     0.87101038
+ [7,]        7 0.059540363     0.93055075
+ [8,]        8 0.029770181     0.96032093
+ [9,]        9 0.013231192     0.97355212
+[10,]       10 0.005292477     0.97884459
