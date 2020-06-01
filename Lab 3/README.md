@@ -33,7 +33,8 @@ Using data collected by Besson, Taroni et al. suggest that about 36% of bills in
   6. Probability that more than 15 bills contain traces of cocaine = **76.72% (rounded)**
   7. Probability that 15 or more bills contain traces of cocaine = **84.91% (rounded)**
   
-Observations:
+**Observations:**
+
 From question 1 I can make the observation that the PMF closely resembles a normal distrubtion with a standard deviation of 3.394113.
   - 1st standard deviation above = mean(18) + standard deviation(3.394113) = 21.394113
   - 2nd standard deviation above = mean(18) + standard deviation(3.394113)*2 = 24.788226
