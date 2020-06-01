@@ -2,23 +2,17 @@
 
 > #*****Question 1*****
 > n = 50
-
 > x = seq(from = 0, to = 40)#x-axis range 0 to 40
-
-> pmf = dbinom(x, size = n, prob = p)#d-function, where x is vector of quantiles, size is number of trails
-
->                                    #and prob is the probability of success on each trail
+> pmf = dbinom(x, size = n, prob = p)                                
 > plot(x, pmf, typ = "h",#creates the PMF for the data wher .... [TRUNCATED] 
 
 > #*****Question 2*****
 > sigma = sqrt(n*p*(1-p))#approximate uncertainty in the count, represented by sigma (standard deviation)
-
 > sigma
 [1] 3.394113
 
 > #*****Question 3*****
 > mean = n*p#finding the expected amount of bills to be contaminated with cocaine
-
 > mean
 [1] 18
 
@@ -26,14 +20,12 @@
 > pbinom(20, size = n, prob = p) - pbinom(10, size = n, prob = p)
 [1] 0.7599832
 
-> #p-function, where 20 and 10 are vecotrs of quantiles, size is again the number of trails,
-> #and prob is the probability of success on each trail
-> .... [TRUNCATED] 
+> #*****Question 5*****
+> pbinom(13, size = n, prob = p)
 [1] 0.09028957
 
 > #*****Question 6*****
 > prev = 1 - pbinom(15, size = n, prob = p)#what is the probability that 16 or more bills contain traces of cocaine
-
 > prev
 [1] 0.7671781
 
