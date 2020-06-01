@@ -5,6 +5,12 @@ Definitions:
   - Poisson PMF: Do not know how many times an experiment will be performed but the average is known on how many times you get lambda
     - Lambda is the mean rate for occurrence of an "event" or "success"
   - Cumulative Distribution Function (CDF): A function that gives the probability that a random variable is less than or equal to a specified value
+  
+Helpful Functions in R for Poisson Distribution:
+  - dpois: "d-function" the density (mass) of the distribution
+  - ppois: "p-function" the CDFs of the distribution
+  - qpois: "q-function" the quantiles of the distribution (x-values) for a given cumulative probability (p-value)
+  - rpois: "r-functions" gives a random sample from the distribution
 
 Example: A certain "user" of a social media site (may be a bot) posts at an average rate of about 4 posts per hour.
   1. What is the probability that more than 8 posts will be put up in the next hour?
