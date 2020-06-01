@@ -1,7 +1,7 @@
 p = .36 #percent of bills in general circulation that contain traces of cocaine
 
 #*****Question 1*****
-n = 50
+n = 50 #sample/trail
 x = seq(from = 0, to = 40)#x-axis range 0 to 40
 pmf = dbinom(x, size = n, prob = p)#d-function, where x is vector of quantiles, size is number of trails
                                    #and prob is the probability of success on each trail
