@@ -38,5 +38,6 @@ From question 1 I can make the observation that the PMF closely resembles a norm
   - 1st standard deviation above = mean(18) + standard deviation(3.394113) = 21.394113
   - 2nd standard deviation above = mean(18) + standard deviation(3.394113)*2 = 24.788226
   - 3rd standard deviation above = mean(18) + standard deviation(3.94113)*3 = 29.82339
+  
 To find the three standard deviations below, simply change the addition sign to a subtraction sign.  I can conclude that the chance of finding a single bill contaminated with cocaine from the sample of 50 is very likely because finding zero bills contaminated with cocaine lies over three standard deviations below the mean, which does not statiscally rule out the occurance, rather making it improbable.  
   
