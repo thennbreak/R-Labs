@@ -1,5 +1,4 @@
-Binomial Distribution:
-A soft introduction to binomial distribution with examples
+Binomial Distribution: A soft introduction to binomial distribution with example
 
 Defintions:
   - Probability Mass Function (PMF): Probability over a discrete set of outcomes, which can be represented as a table or histogram
